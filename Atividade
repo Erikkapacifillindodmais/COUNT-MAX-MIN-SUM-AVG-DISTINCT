@@ -1,0 +1,42 @@
+1. a)
+
+select count(jogadores.atleta)
+from jogadores
+
+1. b)
+
+select distinct(jogadores.clube)  as Clubes
+from jogadores
+
+2. a)
+
+SELECT MAX(jogadores.gols)
+from jogadores
+
+2. b)
+
+SELECT MIN(jogadores.assistencias)
+from jogadores
+
+3. a)
+
+SELECT SUM(jogadores.valor_milhoes)
+from jogadores
+
+3. b)
+
+SELECT AVG(jogadores.valor_milhoes)
+from jogadores
+
+3. c)
+
+O valor total é soma de todos os valores de um determinado atributo, a media é o valor total dividido pelo numero de registros que mostra o valor medio de um atributo.
+
+4. a)
+
+Sim, pois o valor oferecido de 20 milhoes é maior que o vlaor medio informado pelo banco de 12,9 milhoes
+
+4. b)
+
+Nao, o valor de um jogador nao diz muito sobre suas condicoes atuais, sua idade, desempenho, experiencia sao fatores em falta que tambem desempenham
+um papel importante na decisão.
